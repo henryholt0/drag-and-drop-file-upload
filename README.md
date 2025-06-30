@@ -6,14 +6,38 @@ It allows users to upload a single file either via drag-and-drop or by selecting
 
 ## Features
 
-- Drag-and-drop support
+- Drag-and-drop file uploading
 - Manual file selection
-- File validation (single file only)
-- Upload status modals (loading, error handling)
-- Integration-ready with Angular services
+- Error handling for:
+  - Uploading multiple files at once
+  - Uploading duplicate files
+- Hover zone UI feedback
+- Modal system for success and error feedback
 
 ## Technologies
 
 - Angular
 - TypeScript
 - HTML / SCSS
+
+## Code Snippet
+
+The full logic can be found in [`src/file-upload.ts`](src/file-upload.ts)
+
+## Screenshots
+
+**Dropzone Hover Effect**
+
+![Dropzone Hover](assets/dropzone-hover.png)
+
+**Upload Success Modal**
+
+![Upload Success](assets/upload-success.png)
+
+**Multi-File Error Modal**
+
+![Multi-File Error](assets/error-multi-file.png)
+
+**Duplicate File Error Modal**
+
+![Duplicate File Error](assets/error-duplicate-file.png)
